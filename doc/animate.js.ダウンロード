@@ -1,0 +1,78 @@
+//------------------------------------------------
+//　トップページ
+//------------------------------------------------
+
+
+$(function () {
+  $('.header-block').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.footer-block').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.nav-block').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.title-block').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.title-block h1').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.title-block span').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.slider-block').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.slider-inner').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.slider-inner .copy').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.main-block').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.index-bnr').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.info-box').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.outer-box').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+  $('.recruit-box').one('inview', function (event, isInView) {
+    if (isInView) {
+      $(this).addClass('fadeIn animated');
+    }
+  });
+
+});

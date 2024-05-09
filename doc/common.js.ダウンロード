@@ -1,0 +1,174 @@
+// JavaScript Document
+if (
+  navigator.userAgent.indexOf("iPhone") > 0 ||
+  navigator.userAgent.indexOf("iPod") > 0 ||
+  navigator.userAgent.indexOf("Android") > 0
+) {
+  document.write(
+    '<meta name="viewport" content="width=device-width,user-scalable=yes" />'
+  );
+} else if (navigator.userAgent.indexOf("iPad") > 0) {
+  document.write(
+    '<meta name="viewport" content="width=1024,  user-scalable=yes,">'
+  );
+} else {
+  document.head.insertAdjacentHTML('beforeend', '<meta name="viewport" content="width=1024,  user-scalable=yes,"><meta name="format-detection" content="telephone=no">')
+}
+
+//アコーディオン
+$(function() {
+  $(".accord-box .btn").click(function() {
+    $(this).find(".accord-icon").toggleClass("-active");
+    $(this).next(".inner").slideToggle(500);
+  });
+});
+
+//タブ切り替え
+$(function () {
+  /*初期表示*/
+  $('.tab-panel').hide();
+  $('.tab-panel').eq(0).show();
+  $('.tab-btn').eq(0).addClass('is-active');
+  /*クリックイベント*/
+  $('.tab-btn').each(function () {
+    $(this).on('click', function () {
+      var index = $('.tab-btn').index(this);
+      $('.tab-btn').removeClass('is-active');
+      $(this).addClass('is-active');
+      $('.tab-panel').hide();
+      $('.tab-panel').eq(0).removeClass('tab-active');
+      $('.tab-panel').eq(index).show().addClass('tab-active');
+    });
+  });
+});
+
+// ボタンを押下時に遷移
+$("select[name=pulldown1]").change(function() {
+  if ($(this).val() != "") {
+    window.location.href = $(this).val();
+  }
+});
+
+var headerHeight = 0;
+
+$(function() {
+  //URLのハッシュ値を取得
+  var urlHash = location.hash;
+  //ハッシュ値があればページ内スクロール
+  if (urlHash) {
+    //スクロールを0に戻す
+    $("body,html")
+      .stop()
+      .scrollTop(0);
+    setTimeout(function() {
+      //ロード時の処理を待ち、時間差でスクロール実行
+      scrollToAnker(urlHash);
+    }, 100);
+  }
+
+  //通常のクリック時
+  $('a[href^="#"]').click(function() {
+    //ページ内リンク先を取得
+    var href = $(this).attr("href");
+    //リンク先が#か空だったらhtmlに
+    var hash = href == "#" || href == "" ? "html" : href;
+
+    if ($(this).attr("rel") == "leanModal") {
+      headerHeight = 0;
+    } else {
+      headerHeight = 20;
+    }
+
+    //スクロール実行
+    scrollToAnker(hash);
+    //リンク無効化
+    return false;
+  });
+});
+
+// 関数：モーダルを閉じてからスムーススクロール
+// 指定したアンカー(#ID)へアニメーションでスクロール
+function scrollToAnkerAfModalClose(anc_id) {
+  $("#lean_overlay").click();
+
+  headerHeight = 100;
+  //スクロール実行
+  scrollToAnker(anc_id);
+  //リンク無効化
+  return false;
+}
+
+// 関数：スムーススクロール
+// 指定したアンカー(#ID)へアニメーションでスクロール
+function scrollToAnker(hash) {
+  var target = $(hash);
+  var position = target.offset().top - headerHeight;
+  $("body,html")
+    .stop()
+    .animate(
+      {
+        scrollTop: position
+      },
+      500
+    );
+}
+
+//------------------------------------------------
+//　フェードしてページTOPへ戻る
+//------------------------------------------------
+$(function() {
+  var topBtn = $("#page-top");
+  var homeBtn = $("#home");
+  topBtn.hide();
+  homeBtn.hide();
+  //スクロールが100に達したらボタン表示
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      topBtn.fadeIn();
+      homeBtn.fadeIn();
+    } else {
+      topBtn.fadeOut();
+      homeBtn.fadeOut();
+    }
+  });
+  //スクロールしてトップ
+  $(".backtotop").click(function() {
+    $("body,html").animate(
+      {
+        scrollTop: 0
+      },
+      500
+    );
+    return false;
+  });
+});
+
+var ua = navigator.userAgent.toLowerCase();
+var isMobile = /iphone/.test(ua) || /android(.+)?mobile/.test(ua);
+
+if (!isMobile) {
+  $('a[href^="tel:"]').on("click", function(e) {
+    e.preventDefault();
+  });
+}
+
+//------------------------------------------------
+//has
+//------------------------------------------------
+
+$(function() {
+  $("table td:has(img)").addClass("td_img");
+});
+
+
+// -------------------------------------------------------------------
+// Resize
+// -------------------------------------------------------------------
+$(document).ready(function() {
+  $("body").css("font-size", $.cookie("fsize"));
+});
+
+function font(size) {
+  $("body").css("font-size", size);
+  $.cookie("fsize", size, { expires: 30, path: "/" }); //※.cookie(name.value,{expires:保存days,path:有効パス})
+}

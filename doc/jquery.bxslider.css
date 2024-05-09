@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta http-equiv="imagetoolbar" content="no" />
+  <meta name="robots" content="index, follow" />
+
+  <meta name="keywords" content="札幌,北海道,医療,病院">
+
+  <meta name="description" content="医療法人社団　静和会　静和記念病院についてご紹介します。">
+  <meta name="author" content="">
+
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="静和記念病院">
+  <meta property="og:description" content="医療法人社団　静和会　静和記念病院についてご紹介します。">
+  <meta property="og:image" content="/img/index/ogp.jpg">
+  <meta property="og:site_name" content="医療法人社団 静和会 静和記念病院"><!--//// 共通 部品↓ ////-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.inview.js"></script>
+  <link rel="stylesheet" href="/css/common.css" type="text/css" media="screen, print" />
+  <script type="text/javascript" src="/js/animate.js"></script>
+  <script type="text/javascript" src="/js/common.js"></script>
+  <script>
+    window.WebFontConfig = {
+      google: {
+        families: ['Lato:400,700,900', 'Noto+Serif+JP:400,600', 'EB+Garamond:500,600']
+      },
+      active: function () {
+        sessionStorage.fonts = true;
+      }
+    };
+    (function () {
+      var wf = document.createElement('script');
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+  <!--//// 共通 部品↑ ////-->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BGT48N49ZW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BGT48N49ZW');
+</script>  <script type="text/javascript" src="/css/jquery.bxslider.css"></script>
+  <script type="text/javascript" src="/js/jquery.bxslider.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('#slider').bxSlider({
+        auto: true,
+        adaptiveHeight: true,
+        speed: 4000,
+        mode: 'fade',
+        captions: false,
+        controls: false,
+        pager: false,
+      });
+    });
+  </script>
+<title>医療法人社団 静和会 静和記念病院</title>
+</head>
+
+<body ontouchstart="">
+  <div class="wrap">
+  
+    <div class="header-block">
+      <div class="header-inner">
+
+        <div class="logo-box">
+          <a href="/">
+            <div class="title">
+              <span>医療法人社団静和会</span>静和記念病院
+              <p class="en">Seiwa Memorial Hospital</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="header-btn">
+          <div class="resize-box">
+            <ul>
+              <li class="btn">
+                <a href="javascript:void(0)">文字サイズ</a>
+                <ul class="drop-box -resize">
+                  <li onclick="font('1rem')"><a href="javascript:void(0)" id="chf_s">標準</a></li>
+                  <li onclick="font('1.1rem')"><a href="javascript:void(0)" id="chf_m">大</a></li>
+                  <li onclick="font('1.2rem')"><a href="javascript:void(0)" id="chf_b">最大</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <ul class="btn-box">
+            <li>
+              <a href="http://www.seiwa-kai.or.jp/" target="_blank">医療法人静和会</a>
+            </li>
+            <li>
+              <a href="/access.html">アクセス</a>
+            </li>
+            <li>
+              <a href="/contact.html">お問い合わせ</a>
+            </li>
+          </ul><!-- /.btn-list -->
+        </div><!-- /.header-btn -->
+
+        <div class="header-info">
+          <ul class="link">
+            <li><a href="/department/regional.html">医療関係の方へ</a></li>
+          </ul><!-- /.btn -->
+          <ul class="tel">
+            <li>
+              <span>tel</span>
+              <p>011-738-7111</p>
+            </li>
+          </ul>
+        </div><!-- /.header-info -->
+
+      </div>
+    </div>  
+    <!-- slider start -->
+    <div class="slider-block">
+
+      <div class="sche-box">
+
+        <div class="sche-inner">
+          <div class="title">診療受付時間のご案内</div>
+
+          <ul class="sche-list">
+            <li>
+              <div class="label">午前</div>
+              <div class="time">8:30 - 11:30</div>
+            </li>
+            <li>
+              <div class="label">午後</div>
+              <div class="time">12:30 - 16:30<span>（土曜午前のみ）</span></div>
+            </li>
+            <li class="holi">
+              <div class="label">休診日</div>
+              <div class="text">日曜・祝日・年末年始</div>
+            </li>
+          </ul>
+
+          <p class="read">各診療科や担当医師によって<br>診療する曜日及び診療時間が異なります。<br>詳細は、診療担当医表をご確認ください。</p>
+
+          <ul class="btn">
+            <li><a href="/outpatient/schedule.html">診療担当医表</a></li>
+            <li><a href="/access.html">アクセス</a></li>
+            <li><a href="/section/">診療科紹介</a></li>
+            <li><a href="/hospital/meet.html">面会のご案内</a></li>
+            <li><a href="/outpatient/emergency.html">救急診療</a></li>
+            <li><a href="/outpatient/temperature.html">発熱外来</a></li>
+            <li><a href="/info/index_02.html">お知らせ</a></li>
+            <li><a href="/info/index_03.html">休診情報</a></li>
+          </ul>
+
+          <div class="largebtn">
+            <a href="/department/center.html">健診センターのご案内</a>
+          </div><!-- /.lbtn -->
+
+        </div>
+
+      </div>
+
+      <div class="slider-inner">
+        <ul id="slider">
+          <li class="img01"><img src="/img/index/sp.png"></li>
+          <li class="img02"><img src="/img/index/sp.png"></li>
+          <li class="img03"><img src="/img/index/sp.png"></li>
+          <li class="img04"><img src="/img/index/sp.png"></li>
+          <li class="img05"><img src="/img/index/sp.png"></li>
+          <li class="img06"><img src="/img/index/sp.png"></li>
+        </ul>
+      </div>
+
+    </div>
+    <!-- slider end -->  
+
+    <!-- nav start -->
+    <nav class="nav-block">
+      <ul class="nav-list">
+        <li class="item"><a href="/about/">病院紹介</a></li>
+        <li class="item"><a href="/outpatient/">外来診療のご案内</a></li>
+        <li class="item"><a href="/hospital/">入院のご案内</a></li>
+        <li class="item"><a href="/section/">診療科紹介</a></li>
+        <li class="item"><a href="/department/">部門紹介</a></li>
+        <li class="item"><a href="/recruit/">採用情報</a></li>
+      </ul>
+    </nav>
+    <!-- nav end -->
+<div class="re_mo_disp">
+      <header id="sp_header">
+        <div class="inner clearfix">
+          <p class="navBtn"> <span></span> <span></span> <span></span> </p>
+          <nav role="navigation" class="sitemap-box -none" style="margin-top: 0px;">
+
+            <div class="sitemap-inner">
+              <h1 class="logo"><a href="/"><span>医療法人社団静和会</span>静和記念病院</a></h1>
+              <div class="sitemap-list">
+
+                <div class="tel"><span>tel</span><a href="tel:011-738-7111">011-738-7111</a></div><!-- /.tel -->
+                <div class="list01">
+                  <ul>
+                    <li class="item"><a href="/outpatient/">外来診療のご案内</a></li>
+                    <li class="item"><a href="/outpatient/schedule.html">診療担当医表</a></li>
+                    <li class="item"><a href="/hospital/">入院のご案内</a></li>
+                    <li class="item"><a href="/section/">診療科紹介</a></li>
+                    <li class="item"><a href="/department/">部門紹介</a></li>
+                    <li class="item"><a href="/about/floor.html">フロアのご案内</a></li>
+                  </ul>
+                </div>
+
+                <div class="list02">
+                  <ul>
+                    <li class="item"><a href="/about/">病院紹介</a></li>
+                    <li class="item"><a href="/recruit/">採用情報</a></li>
+                    <li class="item"><a href="/department/center.html">健診センターのご案内</a></li>
+                    <li class="item"><a href="/section/internal.html">肝がん治療センター</a></li>
+                    <li class="item"><a href="/access.html">アクセス</a></li>
+                  </ul>
+                </div>
+
+                <div class="list03">
+                  <ul>
+                    <li class="item"><a href="/lp/cancer_genetic/" target="_blank">がん遺伝子検査</a></li>
+                    <li class="item"><a href="/privacy.html">個人情報保護方針</a></li>
+                    <li class="item"><a href="/contact.html">お問い合わせ</a></li>
+                    <li class="item"><a href="http://www.seiwa-kai.or.jp/" target="_blank">医療法人社団静和会</a></li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>  
+  
+    <!-- main start -->
+    <main role="main" class="main-block">
+      <article class="main-inner">
+      
+
+            
+      <section class="content-block">
+        <div class="content-inner -bnr">
+            <div class="index-bnr-box">
+              <ul>
+                <li>
+                  <a class="bnr02" href="https://seiwa-mh.jp/info/post_71.html">レスパイト入院に関するお知らせ</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </section>
+      
+      <section class="content-block -info">
+        <div class="content-inner -index">
+        	<div class="index-info">
+
+              <div class="tab-box">
+                <button class="tab-btn">すべて</button>
+                <button class="tab-btn">お知らせ</button>
+                <button class="tab-btn">休診情報</button>
+                <button class="tab-btn">採用情報</button>
+              </div>
+
+              <div class="tab-panel">
+                <div class="info-box">
+                  <ul class="info-list">
+                   <li>
+  <a href="https://seiwa-mh.jp/info/65.html">
+   <div class="date">2024.04.26</div>
+   <div class="category -cate02">休診情報</div>
+
+
+   <div class="text"><p>令和6年5月　休診のお知らせ</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/post_77.html">
+   <div class="date">2024.04.17</div>
+   <div class="category -cate01">お知らせ</div>
+
+
+
+   <div class="text"><p>健診センターより 人間ドックメニュー新設 のお知らせ</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/post_76.html">
+   <div class="date">2024.04.17</div>
+   <div class="category -cate01">お知らせ</div>
+
+
+
+   <div class="text"><p>看護部長就任のお知らせ</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/2024.html">
+   <div class="date">2024.04.05</div>
+   <div class="category -cate01">お知らせ</div>
+
+
+
+   <div class="text"><p>2024年度 新人看護職員技術研修を行いました</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/641.html">
+   <div class="date">2024.03.28</div>
+   <div class="category -cate01">お知らせ</div>
+
+
+
+   <div class="text"><p>令和6年4月1日より無料循環バスの運行ルートと時刻が変更となります</p></div>
+  </a>
+</li>
+
+
+
+
+                  </ul>
+                </div>
+                <div class="archive"><a href="/info/">すべての一覧を見る</a></div>
+              </div>
+            
+            <div class="tab-panel">
+                <div class="info-box">
+                  <ul class="info-list">
+                   <li>
+  <a href="https://seiwa-mh.jp/info/post_77.html">
+   <div class="date">2024.04.17</div>
+   <div class="category -cate01">お知らせ</div>
+
+
+
+   <div class="text"><p>健診センターより 人間ドックメニュー新設 のお知らせ</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/post_76.html">
+   <div class="date">2024.04.17</div>
+   <div class="category -cate01">お知らせ</div>
+
+
+
+   <div class="text"><p>看護部長就任のお知らせ</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/2024.html">
+   <div class="date">2024.04.05</div>
+   <div class="category -cate01">お知らせ</div>
+
+
+
+   <div class="text"><p>2024年度 新人看護職員技術研修を行いました</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/641.html">
+   <div class="date">2024.03.28</div>
+   <div class="category -cate01">お知らせ</div>
+
+
+
+   <div class="text"><p>令和6年4月1日より無料循環バスの運行ルートと時刻が変更となります</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/department/files/cb81423e19fe3e38763b994080f1ae3ad2113e39.pdf" target="_blank">
+   <div class="date">2024.03.23</div>
+   <div class="category -cate01">お知らせ</div>
+
+
+
+   <div class="text"><p>『綺麗な姿勢をいつまでも　立ってできる運動ガイドブック』～リハビリテーション科～</p></div>
+  </a>
+</li>
+
+
+
+
+                  </ul>
+                </div>
+                <div class="archive"><a href="/info/index_02.html">お知らせの一覧を見る</a></div>
+              </div>
+            
+            <div class="tab-panel">
+                <div class="info-box">
+                  <ul class="info-list">
+                   <li>
+  <a href="https://seiwa-mh.jp/info/65.html">
+   <div class="date">2024.04.26</div>
+   <div class="category -cate02">休診情報</div>
+
+
+   <div class="text"><p>令和6年5月　休診のお知らせ</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/64.html">
+   <div class="date">2024.03.28</div>
+   <div class="category -cate02">休診情報</div>
+
+
+   <div class="text"><p>令和6年4月　休診のお知らせ</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/63.html">
+   <div class="date">2024.02.28</div>
+   <div class="category -cate02">休診情報</div>
+
+
+   <div class="text"><p>令和6年3月　休診のお知らせ</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/62.html">
+   <div class="date">2024.01.27</div>
+   <div class="category -cate02">休診情報</div>
+
+
+   <div class="text"><p>令和6年2月　休診のお知らせ</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/61.html">
+   <div class="date">2023.12.26</div>
+   <div class="category -cate02">休診情報</div>
+
+
+   <div class="text"><p>令和6年1月　休診のお知らせ</p></div>
+  </a>
+</li>
+
+
+
+
+                  </ul>
+                </div>
+                <div class="archive"><a href="/info/index_03.html">休診情報の一覧を見る</a></div>
+              </div>
+            
+            <div class="tab-panel">
+                <div class="info-box">
+                  <ul class="info-list">
+                   <li>
+  <a href="https://seiwa-mh.jp/info/post_74.html">
+   <div class="date">2024.03.01</div>
+   <div class="category -cate03">採用情報</div>
+
+   <div class="text"><p>手術室看護師の求人を更新しました</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/recruit/post.html">
+   <div class="date">2023.07.27</div>
+   <div class="category -cate03">採用情報</div>
+
+   <div class="text"><p>電話交換・受付対応スタッフを募集しています。</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/info/post_57.html">
+   <div class="date">2023.06.07</div>
+   <div class="category -cate03">採用情報</div>
+
+   <div class="text"><p>部門紹介 看護部ページに募集要項を追加しました</p></div>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://seiwa-mh.jp/recruit/app.html">
+   <div class="date">2022.10.27</div>
+   <div class="category -cate03">採用情報</div>
+
+   <div class="text"><p>現在募集中の職種はこちら</p></div>
+  </a>
+</li>
+
+
+
+
+                  </ul>
+                </div>
+                <div class="archive"><a href="/info/index_04.html">採用情報の一覧を見る</a></div>
+              </div>
+
+            </div>
+        	<ul class="index-btn">
+              <li>
+                <a href="/outpatient/">
+                  <div class="title">外来診療のご案内</div>
+                  <div class="en">Outpatient</div><!-- /.en -->
+                </a>
+              </li>
+              <li>
+                <a href="/outpatient/schedule.html">
+                  <div class="title">診療担当医表</div>
+                  <div class="en">Schedule</div><!-- /.en -->
+                </a>
+              </li>
+              <li>
+                <a href="/section/">
+                  <div class="title">診療科紹介</div>
+                  <div class="en">Department</div><!-- /.en -->
+                </a>
+              </li>
+              <li>
+                <a href="/hospital/">
+                  <div class="title">入院のご案内</div>
+                  <div class="en">Hospital</div><!-- /.en -->
+                </a>
+              </li>
+              <li>
+                <a href="/about/floor.html">
+                  <div class="title">フロアのご案内</div>
+                  <div class="en">Facilities</div><!-- /.en -->
+                </a>
+              </li>
+            </ul>
+        </div>
+      </section>
+      
+      
+	  <section class="content-block">
+        <div class="content-inner -index">
+        	<div class="index-box">
+              <div class="index-inner">
+                
+                <div class="image">
+                  <img src="/img/index/photo_cg.jpg">
+                </div><!-- /.image -->
+                <a href="/lp/cancer_genetic/" target="_blank">
+                  <div class="text">
+                    <div class="title">がん遺伝子検査</div>
+                    <div class="en">Cancer Genetic</div><!-- /.en -->
+                  <div class="icon"><img src="/img/index/icon_01.svg"></div><!-- /.div -->
+                    <div class="read">ご自身のがんの原因となる遺伝子をがん遺伝子検査し明らかにすることで、<br>より適した治療薬の情報を得ることが可能となり、<br>辛い副作用の軽減や症状の緩和が期待できます。</div><!-- /.read -->
+                  </div><!-- /.text -->
+                </a>
+                
+              </div><!-- /.index-inner -->
+            </div>
+
+            <div class="index-box -rev">
+              <div class="index-inner">
+                
+                <div class="image">
+                  <img src="/img/index/photo_01.jpg">
+                </div><!-- /.image -->
+                <a href="/section/surgery.html#hepatoma">
+                  <div class="text">
+                    <div class="title">肝がん治療センター</div>
+                    <div class="en">Diagnosis Center</div><!-- /.en -->
+                  <div class="icon"><img src="/img/index/icon_01.svg"></div><!-- /.div -->
+                    <div class="read">肝臓がん、転移性肝がんの手術治療を行っています。<br>抗がん剤を用いる薬物療法からも、消化器内科とキャンサーボードを作り、<br>密にディスカッションしながら適切な治療法を選択しています。</div><!-- /.read -->
+                  </div><!-- /.text -->
+                </a>
+                
+              </div><!-- /.index-inner -->
+            </div>
+        </div>
+      </section>
+      
+      
+	  <section class="content-block">
+        <div class="content-inner -box">
+        	<div class="recruit-box">
+              <div class="recruit-inner">
+                <div class="copy">笑顔をつくる仕事、はじめてみませんか。</div><!-- /.copy -->
+                <div class="text">
+                  <div class="title">採用情報</div>
+                  <div class="en">Recruit</div><!-- /.en -->
+                  <div class="icon"><img src="img/common/icon/logo.svg"></div><!-- /.div -->
+                  <div class="read">医療法人社団静和会　静和記念病院では、地域に根ざした医療に職員一同取り組んでおります。<br>
+                    患者様に笑顔で治療に取り組んで頂ける環境づくりを第一に考えます。</div><!-- /.read -->
+                  <ul class="link">
+                  	<li><a href="/recruit/app.html">募集要項</a></li>
+                  </ul><!-- /.link -->
+                </div><!-- /.text -->
+              </div><!-- /.recruit-inner -->
+            </div><!-- /.recruit-box -->
+        </div>
+      </section>
+      
+      
+	 
+      
+      
+      </article>
+    </main>
+    <!-- main end -->
+  
+    <div id="page-top"><a href="javascript:backToTop();" class="backtotop"></a></div>
+    <div class="footer-block">
+      <div class="footer-inner">
+
+        <div class="footer-info">
+          <div class="info">
+            <div class="logo-box">
+              <a href="/">
+                <div class="title">
+                  <span>医療法人社団静和会</span>静和記念病院
+                  <p class="en">Seiwa Memorial Hospital</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="addr">〒063-0865 札幌市西区八軒5条東5丁目1番1号</div>
+            <div class="tel">
+              <ul>
+                <li>
+                  <span>tel</span>
+                  <p><a href="tel:011-738-7111">011-738-7111</a></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="link-box">
+            <ul class="list">
+              <li><a href="/privacy.html">個人情報保護方針</a></li>
+              <li><a href="http://www.seiwa-kai.or.jp/" target="_blank">医療法人社団静和会</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="copy">© Seiwa Memorial Hospital.</div>
+    </div>
+
+  </div>
+  <script src="/js/re_nav.js"></script>  
+  </div>
+</body>
+</html>

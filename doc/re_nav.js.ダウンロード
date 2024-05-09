@@ -1,0 +1,58 @@
+// オーバーレイ作成
+$('main').prepend('');
+
+// アイコンをクリックしたら
+$('.navBtn').click(function() {
+		$('#sp_header').toggleClass('navOpen'); // class付与/削除
+		$('#wrap').toggleClass('fixed'); // コンテンツを固定/解除
+		$('.sitemap-box').toggleClass('-none'); // class付与/削除
+		$('.sitemap-box').toggleClass('-active'); // class付与/削除
+
+		// スマホナビゲーションがヘッダーに被らないようにする
+		var headerH = $('#sp_header').outerHeight();
+		if ($('#sp_header').hasClass('navOpen')) {
+				$('header nav').css('marginTop', headerH + 'px'); //ヘッダーの高さ分マージンを付ける
+		}
+});
+
+// オーバーレイをクリックしたら
+$('.sitemap-box').click(function() {
+		$('#sp_header').removeClass('navOpen'); // class削除
+		$('#wrap').removeClass('fixed'); // 固定解除
+		$('.sitemap-box').toggleClass('-none'); // class付与/削除
+		$('.sitemap-box').toggleClass('-active'); // class付与/削除
+});
+
+// スマホサイズからPCになったとき
+$(window).on('load resize', function() {
+		var breakpoint = 640;
+		if (window.innerWidth > breakpoint) {
+				$('header').removeClass('navOpen'); // class削除
+				$('#wrap').removeClass('fixed'); // 固定解除
+				$('.overlay').hide(); // オーバーレイ非表示
+				$('header nav').css('marginTop', 0 + 'px'); // マージン削除
+		}
+});
+
+function rmNavi(ancNm) {
+
+	var target = $("#" + ancNm);
+	
+	if (target.length) {
+		// スクロールの速度
+	    var speed = 400; // ミリ秒
+		// 移動先を数値で取得
+		var position = target.offset().top;
+		// スムーススクロール
+		$('body,html').animate({scrollTop:position}, speed, 'swing');
+	  
+		$('#sp_header').toggleClass('navOpen'); // class付与/削除
+		$('#wrap').toggleClass('fixed'); // コンテンツを固定/解除
+		$('.overlay').toggle(); // オーバーレイ表示/非表示
+  	} else {
+  		var wk = "/new/index.html#" + ancNm;
+  		location.href = wk;
+  	}
+  	
+  	return false;
+}
